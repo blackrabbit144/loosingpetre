@@ -1,0 +1,29 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1920 600">
+  <defs>
+    <linearGradient id="bg" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#2e7d32;stop-opacity:1" />
+      <stop offset="100%" style="stop-color:#66bb6a;stop-opacity:1" />
+    </linearGradient>
+  </defs>
+  <rect width="1920" height="600" fill="url(#bg)"/>
+  <!-- cat silhouette -->
+  <g transform="translate(250,130)" opacity="0.12" fill="white">
+    <path d="M60 280L30 100c-2-15 5-30 15-35s20 0 25 10l20 50 30-60c5-10 15-15 25-10s15 15 15 30v40l30-30c10-10 25-10 30 5s0 30-10 40L180 200l10 80c2 15-5 30-20 30H80c-15 0-22-15-20-30z"/>
+  </g>
+  <!-- house/shelter -->
+  <g transform="translate(1350,100)" opacity="0.10" fill="white">
+    <polygon points="100,0 200,80 180,80 180,200 20,200 20,80 0,80"/>
+    <rect x="70" y="120" width="60" height="80" rx="5" fill="url(#bg)"/>
+  </g>
+  <!-- heart -->
+  <g transform="translate(900,100)" opacity="0.08" fill="white">
+    <path d="M50 90C25 65 0 45 0 25 0 10 10 0 25 0c10 0 20 5 25 15C55 5 65 0 75 0c15 0 25 10 25 25 0 20-25 40-50 65z"/>
+  </g>
+  <!-- paw prints -->
+  <g transform="translate(700,420)" opacity="0.07" fill="white">
+    <circle cx="0" cy="0" r="16"/><circle cx="28" cy="-13" r="10"/><circle cx="-28" cy="-13" r="10"/><circle cx="18" cy="-36" r="9"/><circle cx="-18" cy="-36" r="9"/>
+  </g>
+  <g transform="translate(1200,350)" opacity="0.06" fill="white">
+    <circle cx="0" cy="0" r="14"/><circle cx="24" cy="-12" r="9"/><circle cx="-24" cy="-12" r="9"/><circle cx="16" cy="-32" r="8"/><circle cx="-16" cy="-32" r="8"/>
+  </g>
+</svg>
